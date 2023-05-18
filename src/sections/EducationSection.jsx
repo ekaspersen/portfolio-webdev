@@ -10,7 +10,7 @@ export default function EducationSection() {
             <p className="text-center font-black text-e-secondary">
                 Click on modals to open:
             </p>
-            <div className="grid grid-flow-col gap-8">
+            <div className="grid mdbig:grid-flow-col grid-flow-row gap-8">
                 <div className="flex flex-col gap-8">
                     <details className="flex flex-col">
                         <summary className="text-4xl border-b-4 pb-2 flex justify-between cursor-pointer font-semibold">

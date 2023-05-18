@@ -7,7 +7,7 @@ export default function ContactSection() {
             className="min-h-screen inner background-contact flex flex-col justify-center py-32 gap-16"
         >
             <div className="flex flex-col text-center">
-                <h2 className="text-6xl italic">Contact me</h2>
+                <h2 className="text-5xl italic">Contact me</h2>
                 <p>...Or just check out my socials</p>
             </div>
             <span className="text-6xl font-black text-e-secondary md:text-center">

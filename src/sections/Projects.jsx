@@ -4,7 +4,7 @@ export default function Projects() {
     return (
         <div
             id="projects"
-            className="inner bg-e-primary bg-opacity-40 h-[60vh] grid place-items-center"
+            className="inner bg-e-primary bg-opacity-40 grid place-items-center gap-16 py-32"
         >
             <h2 className="text-6xl font-black text-e-secondary md:text-center">
                 Projects
@@ -26,7 +26,7 @@ export default function Projects() {
                     Link to my github
                 </a>
             </div>
-            <p className="text-3xl flex mx-auto">
+            <p className="text-3xl flex mx-auto text-center">
                 <span className="text-5xl">🤧</span>
                 Under construction
                 <span className="text-5xl">🤧</span>

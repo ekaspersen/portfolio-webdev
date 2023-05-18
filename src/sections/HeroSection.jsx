@@ -3,10 +3,10 @@ import hello from "../assets/hellocorn.png";
 export default function HeroSection() {
     return (
         <div className="flex flex-col min-h-screen  justify-between">
-            <div className="h-[70px]"></div>
+            <div className="h-[100px] md:h-[70px}"></div>
             <div className="inner flex flex-col items-center text-center md:text-left md:flex-row-reverse justify-between">
                 <img
-                    className="max-w max-w-[240px] md:max-w-full"
+                    className="max-w max-w-[200px] md:max-w-full"
                     src={hello}
                     alt="picture of my silouette with blown back hair"
                 />
