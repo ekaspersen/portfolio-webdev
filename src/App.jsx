@@ -4,7 +4,7 @@ import ContactSection from "./sections/ContactSection";
 import EducationSection from "./sections/EducationSection";
 import HeroSection from "./sections/HeroSection";
 import Nav from "./sections/Nav";
-import Projects from "./sections/projects";
+import Projects from "./sections/Projects";
 
 function App() {
     return (
