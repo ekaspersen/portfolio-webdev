@@ -27,8 +27,8 @@ export default function AboutMeSection() {
                         <p>
                             I tell more about my coding experience in the
                             education section. When it comes to design i am
-                            mostly self-taught/YouTube, but I hope my designs
-                            can speak for themselves.
+                            mostly self-taught, but I hope my designs can speak
+                            for themselves.
                         </p>
                         <p>
                             Collaborating with team members is one of the
