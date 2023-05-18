@@ -1,13 +1,10 @@
-# react-js-app-template
+# Portfolio page!
 
-To fix the error "Failed to load PostCSS config: Failed to load PostCSS config", follow these steps:
+Welcome to the github of my portfolio page!
+I set up the design and most of front end for it very quickly, but if you return closer to July it should have collected some more content and examples from my previous work.
 
-    Remove the "type": "module" configuration from the project's package.json file to revert back to using CommonJS modules.
-    
-Alternatively:
+npm install
+npm run dev
+&#57358;
 
-    Locate the PostCSS configuration file with a ".js" extension that is causing the error.
-    Rename the file to have a ".cjs" extension.
-    
-
-This should resolve the issue and allow you to load the PostCSS configuration file without errors.
+-   Eskil
