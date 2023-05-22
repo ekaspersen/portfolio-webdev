@@ -2,7 +2,7 @@ import hello from "../assets/hellocorn.png";
 
 export default function HeroSection() {
     return (
-        <div className="flex flex-col min-h-screen  justify-between">
+        <div className="flex flex-col min-h-screen bg-e-primary background-wood bg-cover bg-center  justify-between">
             <div className="h-[100px] md:h-[70px}"></div>
             <div className="inner flex flex-col items-center text-center md:text-left md:flex-row-reverse justify-between">
                 <img
@@ -10,7 +10,7 @@ export default function HeroSection() {
                     src={hello}
                     alt="picture of my silouette with blown back hair"
                 />
-                <div className="flex flex-col gap-16">
+                <div className="flex flex-col pt-4 mdbig:pt-0 gap-16">
                     <div className="flex flex-col">
                         <h1 className="flex flex-col">
                             <span className="font-bold text-lg  md:text-2xl mdbig:text-4xl text-e-secondary">
@@ -34,7 +34,7 @@ export default function HeroSection() {
                 <span>ReactJs</span>
                 <span>JS / API-handling</span>
                 <span>UX & FIGMA</span>
-                <span>GIT-BRANCHING</span>
+                <span>GIT-stuff</span>
             </div>
         </div>
     );

@@ -41,12 +41,6 @@ export default function ContactSection() {
             <span className=" md:text-center text-5xl">
                 Looking forward to hear from you
             </span>
-            <p className="opacity-60 ml-auto text-right max-w-xs">
-                As I look to the future, my goal is to continue to develop my
-                skills, contribute to meaningful projects, and collaborate with
-                others who share a passion for front-end development. Thank you
-                for taking the time to learn a bit about me.
-            </p>
         </div>
     );
 }

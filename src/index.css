@@ -14,9 +14,6 @@
     -webkit-text-size-adjust: 100%;
     @apply text-e-white bg-e-black;
 }
-* {
-    transition: all ease-in-out 320ms;
-}
 img {
     max-width: 100%;
 }
@@ -37,4 +34,7 @@ img {
     background-image: url("./assets/bg/pexels-cottonbro-studio-4629623.png");
     background-position: center;
     background-size: cover;
+}
+.background-wood {
+    background-image: url("./assets/bg/wood.png");
 }

@@ -39,12 +39,11 @@ export default function AboutMeSection() {
                             to collaborate on projects with more people
                         </p>
                         <p className="flex flex-col">
-                            I think menthal and physichal health is really
+                            I think mental and physichal health is really
                             important to keep in order, therefore when i am not
                             working on or learning code/design i am usually
-                            going to the gym🏋🏼 or doing some social
-                            activity🍹☎️🏓 with friends.. or making/eating some
-                            delicious ass food. <span>(mostly burgers)</span>
+                            going to the gym🏋🏼 or doing some sort of social
+                            activity with friends.. I also enjoy cooking.
                         </p>
                     </div>
                 </div>

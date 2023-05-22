@@ -8,15 +8,16 @@ export default function EducationSection() {
         >
             <h2 className="text-6xl font-black text-center">Education</h2>
             <p className="text-center font-black text-e-secondary">
-                Click on modals to open:
+                Click on School titles to interact:
             </p>
             <div className="grid mdbig:grid-flow-col grid-flow-row gap-8">
                 <div className="flex flex-col gap-8">
-                    <details className="flex flex-col">
+                    <details open className="flex flex-col">
                         <summary className="text-4xl border-b-4 pb-2 flex justify-between cursor-pointer font-semibold">
                             Noroff ~ 21/23
                         </summary>
                         <div className="text-lg flex flex-col py-4 gap-3 border-b-4 opacity-80">
+                            <p>At Campus, Oslo</p>
                             <p>
                                 Noroff has taught me the full process of how to
                                 build and design a website. From talking to
@@ -25,44 +26,42 @@ export default function EducationSection() {
                                 site.
                             </p>
                             <p>
-                                I have a more complete understanding of how
-                                everything works now and have really gotten to
-                                focus on becoming a better developer.
-                            </p>
-                            <p>
-                                I also met the people that turned into *Tetrad
-                                Marketing* at Noroff and I am sure i will
-                                collaborate with more students from Noroff in
-                                the future.
-                            </p>
-                            <p>
-                                Tetrad Marketing is my student company. We are a
-                                digital marketing company, this is from our
-                                LinkedIn:
-                                <li className="pl-6 list-none">
-                                    Our team offers everything from SEO to get
-                                    you to the top of the search engine results,
-                                    to advertising to increase your visibility
-                                    online. We are also experts in HubSpot,
-                                    email marketing, lead generation, website
-                                    development, and social media, so no matter
-                                    what your needs are, we have you covered.
-                                    And we can even help you produce creative
-                                    and engaging content that will get your
-                                    customers to click, like, and share.
-                                </li>
-                            </p>
-                            <p>
                                 I am currently working on our homepage as my
                                 exam project. It will be a Vite/ReactJs,
                                 tailwindCSS project utilising Firebase for
-                                administrating blogposts and authenticating what
-                                users can log into the adminpanel where i am
-                                creating everything from brief to hosting.
+                                administrating blogposts and authentication for
+                                adminpanel
+                            </p>
+                            <p>
+                                Our skillset expanded to include planning,
+                                designing, developing, and testing interactive
+                                web solutions. We were taught to reflect on our
+                                practice, adjust under supervision, and
+                                understand our methods of deploying web
+                                applications in a production environment. User
+                                testing was a vital part of our education,
+                                helping us identify and correct deficiencies in
+                                interactive products.
+                            </p>
+                            <p>
+                                The school emphasized developing our overall
+                                competence. We learned to execute tasks in web
+                                design and develop interactive web solutions. We
+                                engaged with professionals from other fields,
+                                contributing to interdisciplinary practices. We
+                                also focused on ethical requirements and
+                                universal design principles, creating web
+                                solutions from concept to deployment.
+                            </p>
+                            <p>
+                                Contributing to web solution architecture, we
+                                adopted industry best practices. I feel this
+                                education has equipped me with a solid
+                                foundation in the industry.
                             </p>
                         </div>
                     </details>
-                    <details open className="flex  flex-col ">
+                    <details className="flex  flex-col ">
                         <summary className="text-4xl border-b-4 pb-2 flex justify-between cursor-pointer font-semibold">
                             Bodø vgs. ~ 20/21
                         </summary>
@@ -75,34 +74,36 @@ export default function EducationSection() {
                             </p>
                             <p>
                                 I had IT as extra-curriculum that year and got
-                                to get sturdy with CSS/responsive design and
-                                HTML. We also made some simple CRUD database
+                                to get even better at with CSS/responsive design
+                                and HTML. We also made some simple CRUD database
                                 projects with PHP/MySql
                             </p>
-                            <p>Ja, jeg var russ 3 år på rad hehe.</p>
                         </div>
                     </details>
                 </div>
                 <div className="flex flex-col gap-8">
-                    <details>
+                    <details open>
                         <summary className="text-4xl border-b-4 pb-2 flex justify-between cursor-pointer font-semibold">
                             Bodin vgs. ~ 19/20
                         </summary>
                         <div className="text-lg flex flex-col py-4 gap-3 border-b-4 opacity-80">
                             <p>
-                                The start to my developer/it career. Raymmond
-                                was or teacher, an ex military officer and in
-                                the later years he was ICT for some military
-                                ops. in Bodø. He was amongst the first people
-                                that could call themselves data-nerds, and us
-                                students got a lot in return because of that.
+                                The start to my developer/it career. My teacher
+                                was a really important part of this class for me
+                                and he taught me a lot and was a great mentor.
+                                before he was a teacher he was ICT for some
+                                military ops. in Bodø. He was amongst the first
+                                people that could call themselves data-nerds,
+                                and us students got a lot in return because of
+                                that.
                             </p>
                             <p>
-                                He taught us how the w3 is put together, what
-                                are LAN/WAN’s, we set up switch/router stations
-                                for LAN servers and we got a pretty good general
-                                understanding of how everything actually is put
-                                together from bit-sized activity to Megabites.
+                                He taught us how the w3(/www.) is put together,
+                                how LAN/WAN’s work and what they are, we set up
+                                switch/router stations for LAN servers and we
+                                got a pretty good general understanding of how
+                                everything actually is put together from
+                                bit-sized activity to Megabites.
                             </p>
                             <p>
                                 We really really wanted to learn development, so
@@ -113,12 +114,14 @@ export default function EducationSection() {
                                 together, both of and on school.
                             </p>
                             <p>
-                                I got pretty decent at HTML, emmet and CSS and
-                                got a good grip on flexbox/grid and the box
-                                model before the year was over. We mostly
-                                learned about using the terminal and coding with
-                                PHP/MySql, but i did not take the time we used
-                                on php into consideration in the paragraph over.
+                                I got pretty decent at HTML, emmet, CSS and got
+                                good at flexbox/grid and the box model before
+                                the year was over. We mostly learned about using
+                                the terminal and coding with PHP/MySql. I can't
+                                say i enjoyed coding in php and sql, but i am
+                                happy i learned about it. I't made learning
+                                about APIs/API-handling and JSON-data and
+                                probably much more a lot easier for me!
                             </p>
                         </div>
                     </details>
@@ -161,6 +164,14 @@ export default function EducationSection() {
                                 both life/career advice and of course teaching
                                 me code in a fun way have been beyond helpful
                                 for me.
+                            </p>
+                            <p>
+                                I probably/maybe watch a bit to much youtube on
+                                my spare time, but i also stay in touch with the
+                                development world by viewing linked in and
+                                catching up with new different types of tech
+                                advances in my industry threw many sources and
+                                extra research.
                             </p>
                         </div>
                     </details>
